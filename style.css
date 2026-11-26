@@ -1,0 +1,52 @@
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+  --accent: navy;
+  --border: #dddddd;
+}
+
+body.dark {
+  --bg: #1e1e1e;
+  --text: #f5f5f5;
+  --accent: #8ab4f8;
+  --border: #444444;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+header,
+main,
+footer {
+  max-width: 900px;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+header {
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: var(--accent);
+}
+
+button {
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+section {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
